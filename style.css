@@ -38,6 +38,7 @@ h1 {
     justify-content: center;
     align-items: center;
     margin: 15px 0;
+    padding: 20px;
 }
 
 .cell {
@@ -47,5 +48,13 @@ h1 {
 }
 
 .path {
-    background-color: #884940;
+    background-color: rgb(0, 00, 255);
+}
+
+.hovered {
+    background-color: #0f0;
+}
+
+.cell.wrong {
+    background-color: #f00;
 }
